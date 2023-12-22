@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+</head>
+<body>
+    <header>
+        <h1>Application form</h1>
+    </header>
+
+    <main>
+        <div>
+        <h2>Application form </h2>
+        <p>Fill in your details</p>
+        </div>
+
+        <form action="">
+            <div class="name">
+                
+                    <label for="first-name">First Name</label>
+                    <input name="first-name" id="first-name" type="text" required placeholder="Enter first name">
+                
+                    <label for="last-name">Last Name</label>
+                    <input name="first-name" id="last-name" type="text" required placeholder="Enter last name">
+                
+            </div>
+
+            <div class="gen-dob">
+                <select required name="gender" id="gender">
+                    <option value="" selected disabled>Select Gender</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select>
+            
+                <label for="dob">Date Of Birth</label>
+                <input name="dob" id="dob" type="date" required placeholder="mm/dd/yy">
+        </div>
+
+
+        <div class="email-edu">
+                
+            <label for="email">E-mail Address</label>
+            <input name="email" id="email" type="email" required placeholder="Enter email">
+
+            <label for="edu">Education Level</label>
+            <select required name="edu" id="edu">
+                <option value="" selected disabled>Select Education Level</option>
+                <option value="Primary">Primary</option>
+                <option value="secondary">Secondary</option>
+                <option value="undergraduate">Undergraduate</option>
+                <option value="graduate">Graduate</option>
+            </select>
+    </div>
+
+    <div class="count-city">
+                
+        <label for="city">City/State Of Residence</label>
+        <input name="city" id="city" type="city" required placeholder="Enter city">
+
+        <label for="country"> Country</label>
+        <select required name="country" id="country">
+            <option value=""  selected disabled>Select Country</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="ghana">Ghana</option>
+            <option value="uganda">Uganda</option>
+            <option value="kenya">Kenya</option>
+        </select>
+    </div>
+
+
+    <div class="employment-phone">
+    
+        <label for="employment">Employment Status</label>
+        <select required name="employment" id="employment">
+            <option value="" selected disabled>Select Employment status</option>
+            <option value="Employed">Employed</option>
+            <option value="Unemployed">Unemployed</option>
+            <option value="Student">Student</option>
+        </select>
+    
+        <label for="phone">Phone Number</label>
+        <input name="phone" id="phone" type="phone" required placeholder="+2348000090076">
+    
+    </div>
+
+
+    <div class="school-course">
+        <label for="school">Choose School</label>
+        <select required name="school" id="school">
+            <option value="" selected disabled>Select School</option>
+            <option value="engineering">School Of Engineering</option>
+            <option value="product"> Product</option>
+            <option value="data">Data</option>
+        </select>
+
+        <label for="course"> Choose Course Of Study</label>
+        <select required name="course" id="course">
+            <option value="" selected disabled>Select course </option>
+            <option value="frontend">Frontend Development</option>
+            <option value="backend">Backend Development</option>
+            <option value="product">Product Design</option>
+            <option value="data">Data Analysis</option>
+        </select>
+     </div>   
+
+
+
+        <div class="ref-code">
+    
+            <label for="ref">How did you hear about us?</label>
+            <select required name="ref" id="ref">
+                <option value="" selected disabled>select channel</option>
+                <option value="Employed">Twitter</option>
+                <option value="Unemployed">Facebook</option>
+                <option value="Student">Instagram</option>
+            </select>
+        
+            <label for="code">Scholarship/Discount Code (Optional)</label>
+            <input name="code" id="code" type="text" placeholder="Scholarship/studentId">
+        
+        </div>
+
+        <div>
+            <p>By clicking procced, I agree to terms of use and acknoledge that i have read the privacy policy </p>
+
+        </div>
+
+        <button type="submit">Proceed</button>
+
+        <p>Already have an account? <span><a href="#">Sign in</a></span></p>
+    
+    
+
+
+
+
+
+
+
+
+
+        </form>
+    </main>
+</body>
+</html>
